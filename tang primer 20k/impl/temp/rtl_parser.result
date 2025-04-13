@@ -1,0 +1,20 @@
+[
+ {
+  "InstFile" : "C:/Users/Waldek/Stefan/Programming/FPGA/project_b/src/top.v",
+  "InstLine" : 1,
+  "InstName" : "top",
+  "ModuleFile" : "C:/Users/Waldek/Stefan/Programming/FPGA/project_b/src/top.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/Waldek/Stefan/Programming/FPGA/project_b/src/top.v",
+    "InstLine" : 53,
+    "InstName" : "uart_tx_inst",
+    "ModuleFile" : "C:/Users/Waldek/Stefan/Programming/FPGA/project_b/src/uart_tx.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "uart_tx"
+   }
+  ]
+ }
+]
