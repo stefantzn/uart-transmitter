@@ -2,7 +2,7 @@
 
 Simple UART transmitter that can send serial data from the Primer 20k FPGA to a microcontroller. In this example, S1 on the board can toggle an LED on a microcontroller.
 
-Verilog FPGA files are located under `tang primer 20k -> src`
+Verilog files are located under `tang primer 20k -> src`
 
 ## ESP32
 
@@ -15,3 +15,10 @@ So far the only supported microcontroller is the ESP32, ran into setup issues re
 
 As most things are, this project is purely experimental!
 
+## Gallery
+
+![ESP32 LED On](photos/esp32_on.jpg)
+*LED On*
+
+![ESP32 LED Off](photos/esp32_off.jpg)
+*LED Off*
