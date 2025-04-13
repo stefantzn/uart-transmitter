@@ -1,4 +1,4 @@
-#define LED_PIN 2    
+#define LED_PIN 2
 
 void setup() {
 
@@ -17,10 +17,8 @@ void loop() {
 
   // start reading
   if (Serial2.available() > 0) {
+
     char c = Serial2.read();
-    
-    Serial.print("Received: ");
-    Serial.println(c);
     
     // led turned on (rising edge) if recieved 1 via uart
     if (c == '1') {
